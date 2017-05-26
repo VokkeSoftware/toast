@@ -1,0 +1,25 @@
+.toast {
+  position: relative;
+  overflow: hidden;
+  margin: 0 0 6px;
+  padding: 15px 15px 15px 50px;
+  width: 300px;
+  border-radius: 3px 3px 3px 3px;
+  background-position: 15px center;
+  background-repeat: no-repeat;
+  box-shadow: 0 15px 30px -10px rgba(0, 0, 0, 0.3);
+  background: #323232;
+  color: #FFF;
+  opacity: 0.7;
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  transform: translateX(-100%);
+
+  &:hover {
+    opacity: 1;
+  }
+
+}
+
+.slideInFromLeft {
+  transform: translateX(30px);
+}
