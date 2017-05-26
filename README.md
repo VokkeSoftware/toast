@@ -8,6 +8,8 @@ Basic toast component for marionette
 Simply pass in an initialization option object with an optional className (To provide custom styling)
 
 ```js
+import Toast from "@vokke/toast";
+
 this.toast = new Toast({
     className: "helloWorld"
 });
